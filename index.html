@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster Destroyer | Portfolio</title>
-    <meta name="description" content="Unityで制作した3Dボスバトルアクション『Monster Destroyer』のポートフォリオサイト">
+    <meta name="description" content="Unityで制作した3Dボスバトルアクション『Monster Destroyer』の紹介サイト">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,42 +15,30 @@
     <header class="hero" id="top">
         <div class="hero-overlay"></div>
 
-        <div class="hero-inner">
+        <div class="hero-inner hero-centered">
             <p class="eyebrow reveal">Unity 3D Boss Battle Action</p>
 
-            <h1 class="reveal delay-1">Monster Destroyer</h1>
-
-            <p class="hero-copy reveal delay-2">
-                巨大な結晶ドラゴンとの短編ボス戦を軸にした、3Dアクションゲームです。<br>
-                制作期間は約2週間弱。1週間でプロトタイプ実装まで到達することを最初から目標に定め、
-                ほぼ未経験の2人で、どこまで効率化し、完成度を高められるかに挑戦しました。
-            </p>
-
-            <div class="hero-buttons reveal delay-3">
-                <a href="#overview" class="btn btn-primary">作品概要を見る</a>
-                <a href="#gameplay" class="btn btn-secondary">戦闘記録を見る</a>
+            <div class="logo-wrap reveal delay-1">
+                <img src="images/logo.png" alt="Monster Destroyer ロゴ" class="main-logo">
             </div>
 
-            <div class="hero-stats reveal delay-4">
-                <div class="stat-card">
-                    <span class="stat-number">2人</span>
-                    <span class="stat-label">制作体制</span>
-                </div>
+            <p class="hero-copy reveal delay-2">
+                巨大な結晶竜に挑む、短編3Dボスバトルアクション。<br>
+                ブリンク、ロックオン、尻尾切断、スコアリザルトを軸に、
+                短時間でも濃いボス戦体験を目指しました。
+            </p>
 
-                <div class="stat-card">
-                    <span class="stat-number">約2週間弱</span>
-                    <span class="stat-label">工期</span>
-                </div>
+            <div class="hero-tags reveal delay-3">
+                <span>Unity</span>
+                <span>3D Action</span>
+                <span>Boss Battle</span>
+                <span>Original Dragon</span>
+            </div>
 
-                <div class="stat-card">
-                    <span class="stat-number">7日</span>
-                    <span class="stat-label">プロトタイプ実装</span>
-                </div>
-
-                <div class="stat-card">
-                    <span class="stat-number">10数人</span>
-                    <span class="stat-label">テストプレイ</span>
-                </div>
+            <div class="hero-buttons reveal delay-4">
+                <a href="#overview" class="btn btn-primary">作品概要を見る</a>
+                <a href="#gameplay" class="btn btn-secondary">戦闘記録を見る</a>
+                <a href="process.html" class="btn btn-secondary">制作の裏側を見る</a>
             </div>
         </div>
 
@@ -62,19 +50,15 @@
 
     <nav class="site-nav">
         <a href="#overview">作品概要</a>
-        <a href="#production">制作条件</a>
         <a href="#difficulty">難易度設計</a>
         <a href="#gameplay">戦闘記録</a>
-        <a href="#process">制作工程</a>
-        <a href="#effort">工夫点</a>
-        <a href="#reflection">振り返り</a>
-        <a href="#future">今後</a>
         <a href="#movie">映像資料</a>
         <a href="#download">配布</a>
+        <a href="process.html">制作の裏側</a>
     </nav>
 
     <main>
-        <section id="overview" class="section">
+        <section id="overview" class="section first-section">
             <div class="section-heading reveal">
                 <p class="section-kicker">Game Overview</p>
                 <h2>作品概要</h2>
@@ -82,7 +66,7 @@
 
             <div class="overview-grid">
                 <div class="glass-card reveal">
-                    <h3>作品概要</h3>
+                    <h3>結晶竜との短編ボスバトル</h3>
 
                     <p>
                         『Monster Destroyer』は、プレイヤーが巨大な結晶ドラゴンに挑む
@@ -114,88 +98,25 @@
                         </li>
 
                         <li>
-                            <span>制作人数</span>
-                            <strong>2人</strong>
+                            <span>制作環境</span>
+                            <strong>Unity / C# / Blender / GitHub</strong>
                         </li>
 
                         <li>
-                            <span>制作期間</span>
-                            <strong>約2週間弱</strong>
+                            <span>主な実装</span>
+                            <strong>ブリンク / ロックオン / 尻尾切断 / 難易度選択 / スコアリザルト</strong>
                         </li>
 
                         <li>
-                            <span>自分の担当</span>
-                            <strong>企画 / 実装 / UI / 難易度調整 / テスト分析 / 制作主導</strong>
-                        </li>
-
-                        <li>
-                            <span>デザイナー担当</span>
-                            <strong>ラフ / リグ入れ / アニメーション</strong>
-                        </li>
-
-                        <li>
-                            <span>AIの使用範囲</span>
-                            <strong>ドラゴンのメッシュ制作、C♯スクリプト、web制作</strong>
+                            <span>制作の裏側</span>
+                            <strong>制作条件・AI使用範囲・制作工程は別ページに記載</strong>
                         </li>
                     </ul>
+
+                    <div class="card-action">
+                        <a href="process.html" class="text-link">制作プロセスを見る →</a>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="production" class="section">
-            <div class="section-heading reveal">
-                <p class="section-kicker">Production Setup</p>
-                <h2>制作条件と進め方</h2>
-            </div>
-
-            <div class="feature-grid">
-                <article class="feature-card reveal">
-                    <h3>最初に工期を決めて制作</h3>
-                    <p>
-                        工期は最初から約2週間と定め、
-                        そのうち1週間でプロトタイプ実装まで持っていくことを明確な目標にして制作しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>ほぼ未経験の2人で挑戦</h3>
-                    <p>
-                        自分もデザイナーも、ゲーム制作・モデリングともにほぼ未経験の状態からスタートしました。
-                        「限られた期間の中でどこまで完成度を高められるか」をテーマに進めました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>現実的な方法を調査して実行</h3>
-                    <p>
-                        自分が主導し、期限内に間に合わせるための現実的な制作手順を2人で調べ、
-                        必要な作業を切り分けながら進行しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal">
-                    <h3>担当分担を明確化</h3>
-                    <p>
-                        デザインは自分とデザイナーで話し合って決定し、
-                        技の構想は自分が担当、アニメーションの実装はデザイナーに担当してもらいました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>リグ遅延時は並列で進行</h3>
-                    <p>
-                        リグ入れが想定より難航した際は、私は先にプレイヤーアクションのブラッシュアップを進め、
-                        制作の停滞を避けるようにしました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>7日で当たり判定・HPまで実装</h3>
-                    <p>
-                        実際に7日でプレイ可能な状態にし、
-                        プレイヤーとボスの当たり判定、HP、戦闘の基本ループまで実装しました。
-                    </p>
-                </article>
             </div>
         </section>
 
@@ -207,9 +128,8 @@
 
             <p class="section-lead reveal">
                 Easy / Normal / Hard の3段階を実装しました。<br>
-                同じモンスターを使っていても単なる使い回しに見えないよう、
-                行動間隔・アニメーション速度・モンスターの大きさ・天候・雨パーティクルなどを調整し、
-                難易度ごとに異なる印象を作ることにも注力しました。
+                同じモンスターを使いながらも、テンポ・サイズ・天候演出を変えることで、
+                難易度ごとに異なる印象を持たせています。
             </p>
 
             <div class="difficulty-grid">
@@ -258,17 +178,6 @@
                         </p>
                     </div>
                 </article>
-            </div>
-
-            <div class="glass-card detail-card reveal">
-                <h3>難易度調整で意識したこと</h3>
-
-                <ul class="bullet-list">
-                    <li>同じボスでもサイズ・行動間隔・アニメーション速度を変えて体感差を出す</li>
-                    <li>天候や雨パーティクルで視覚的にも難易度の印象を変える</li>
-                    <li>短工期でも「ただ数値を変えただけ」に見えないよう演出面を追加する</li>
-                    <li>初心者でも楽しめる一方、経験者には歯ごたえが残る設計を目指す</li>
-                </ul>
             </div>
         </section>
 
@@ -358,361 +267,6 @@
             </div>
         </section>
 
-        <section id="process" class="section">
-            <div class="section-heading reveal">
-                <p class="section-kicker">Production Process</p>
-                <h2>制作工程記録</h2>
-            </div>
-
-            <p class="section-lead reveal">
-                結晶をまとったドラゴンと、それに対応するステージをオリジナルで構想・実装しました。<br>
-                デザインは自分とデザイナーで話し合って方向性を決め、
-                ラフ → AI支援によるメッシュ生成 → リグ入れ → アニメーション → Unity実装
-                という流れで進めました。
-            </p>
-
-            <div class="timeline process-timeline">
-                <article class="timeline-item reveal">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>① コンセプト決定</h3>
-                        <p>
-                            「結晶をまとったドラゴン」というコンセプトを2人で話し合い、
-                            そこからデザイナーがラフを制作。ステージのラフも同時に作成しました。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal delay-1">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>② AIを使った三面図・プレビュー・メッシュ制作</h3>
-                        <p>
-                            ラフをもとにAIで三面図や3Dモデル風のプレビュー画像を作成し、
-                            イメージ共有と方向性の確認に活用しました。メッシュ制作にもAIを使用しています。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal delay-2">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>③ リグ入れの方針転換</h3>
-                        <p>
-                            当初は既存アセットのドラゴンのボーンを移植する予定でしたが、
-                            ウェイトなどの問題が発生したため、デザイナーが自力でリグ入れを行う方針に切り替えました。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>④ 並列作業で進行維持</h3>
-                        <p>
-                            リグ作業で工期がずれそうだったため、私はプレイヤーアクションを先にブラッシュアップし、
-                            制作全体の進行が止まらないように対応しました。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal delay-1">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>⑤ Unity実装と尻尾切断</h3>
-                        <p>
-                            エクスポートされたFBXに当たり判定を設定し、
-                            さらに尻尾メッシュを分離したモデルをもとに、一定ダメージで尻尾切断する要素を実装しました。
-                        </p>
-                    </div>
-                </article>
-            </div>
-
-            <div class="gallery-grid process-gallery">
-                <figure class="gallery-card reveal">
-                    <img src="images/dragon_concept_rough.jpg" alt="ドラゴンラフ" data-full="images/dragon_concept_rough.jpg">
-                    <figcaption>
-                        <h3>結晶ドラゴンのラフ</h3>
-                        <p>2人で話し合った内容をもとに、結晶をまとったドラゴンの方向性を固めたラフ。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-1">
-                    <img src="images/stage_rough.jpg" alt="ステージラフ" data-full="images/stage_rough.jpg">
-                    <figcaption>
-                        <h3>ステージラフ</h3>
-                        <p>ボス戦に合わせたステージの雰囲気・構造を共有するためのラフ。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-2">
-                    <img src="images/dragon_blueprint.png" alt="AIで作成した三面図" data-full="images/dragon_blueprint.png">
-                    <figcaption>
-                        <h3>AIで作成した三面図</h3>
-                        <p>ラフをもとに三面図化し、全体形状を確認しやすくした資料。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal">
-                    <img src="images/dragon_preview.png" alt="3Dモデル風プレビュー" data-full="images/dragon_preview.png">
-                    <figcaption>
-                        <h3>3Dモデル風プレビュー</h3>
-                        <p>AIで3Dモデル風の見え方を確認し、完成イメージの共有に活用。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-1">
-                    <img src="images/bone_transfer_attempt.png" alt="既存ボーン移植作業" data-full="images/bone_transfer_attempt.png">
-                    <figcaption>
-                        <h3>既存ボーン移植の試行</h3>
-                        <p>当初は既存ドラゴンのボーンを移植する予定で進めていた作業風景。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-2">
-                    <img src="images/rig_weightpaint.png" alt="ウェイト調整" data-full="images/rig_weightpaint.png">
-                    <figcaption>
-                        <h3>ウェイト調整</h3>
-                        <p>問題を回避しながら、デザイナーが自力でリグ入れ・ウェイト調整を進行。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal">
-                    <img src="images/rig_complete.png" alt="リグ完了後" data-full="images/rig_complete.png">
-                    <figcaption>
-                        <h3>リグ完了後</h3>
-                        <p>ポリゴン数などの問題も踏まえつつ、リグ作業を完了した段階のモデル。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-1">
-                    <img src="images/animation_test_01.png" alt="アニメーション試作1" data-full="images/animation_test_01.png">
-                    <figcaption>
-                        <h3>アニメーション試作 1</h3>
-                        <p>リグを使って動作確認とアニメーション試作を進めている段階。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-2">
-                    <img src="images/animation_test_02.png" alt="アニメーション試作2" data-full="images/animation_test_02.png">
-                    <figcaption>
-                        <h3>アニメーション試作 2</h3>
-                        <p>実際に動かしながら破綻がないかを確認し、調整を進めた様子。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal">
-                    <img src="images/unity_hitbox.png" alt="Unityで当たり判定設定" data-full="images/unity_hitbox.png">
-                    <figcaption>
-                        <h3>当たり判定の設定</h3>
-                        <p>Unityに持ち込み、戦闘に必要な当たり判定を設定した工程。</p>
-                    </figcaption>
-                </figure>
-
-                <figure class="gallery-card reveal delay-1">
-                    <img src="images/tail_separation.png" alt="尻尾分離モデル" data-full="images/tail_separation.png">
-                    <figcaption>
-                        <h3>尻尾分離モデル</h3>
-                        <p>尻尾切断ギミック実装のために、尻尾メッシュを分離して使用。</p>
-                    </figcaption>
-                </figure>
-            </div>
-        </section>
-
-        <section id="effort" class="section">
-            <div class="section-heading reveal">
-                <p class="section-kicker">Development Notes</p>
-                <h2>工夫点・こだわり</h2>
-            </div>
-
-            <div class="feature-grid">
-                <article class="feature-card reveal">
-                    <h3>短工期・少人数での完成度追求</h3>
-                    <p>
-                        約2週間弱という短い工期を最初から設定し、
-                        ほぼ未経験の2人でどこまで効率化し、完成度を高められるかに挑戦しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>制作主導と進行管理</h3>
-                    <p>
-                        私が主導して現実的な制作方法を調べ、
-                        作業の優先順位や役割分担を整理しながら進行しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>7日でプロトタイプ実装</h3>
-                    <p>
-                        1週間でプロトタイプ完成まで到達することを目標にし、
-                        実際に当たり判定やHP実装を含むプレイ可能な状態まで持っていきました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal">
-                    <h3>チーム内での役割分担</h3>
-                    <p>
-                        デザインは2人で話し合って決め、
-                        技構想は私、アニメーション実装はデザイナーが担当する形で進めました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>UIへのこだわり</h3>
-                    <p>
-                        タイトル、クエスト、リザルトだけでなく、
-                        戦闘中のHPやブリンクゲージも分かりやすく調整し、
-                        視認性と世界観の両立を意識しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>HP・ブリンクゲージの分かりやすさ</h3>
-                    <p>
-                        ブリンク残量とHPを戦闘中にすぐ判断できるようにし、
-                        アクションゲームとして必要な情報が直感的に伝わるUIを意識しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal">
-                    <h3>プレイヤー攻撃の爽快感</h3>
-                    <p>
-                        プレイヤー攻撃時のVFXやSE、ヒットストップを調整し、
-                        爽快感と視覚的な分かりやすさを両立できるよう意識しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>理不尽感を減らす戦闘設計</h3>
-                    <p>
-                        敵の攻撃予兆VFXや当たり判定の調整を行い、
-                        被弾時に納得感が出るように工夫しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>難易度ごとの差別化</h3>
-                    <p>
-                        同じモンスターを使っていても使い回し感が減るように、
-                        行動間隔、アニメーション速度、大きさ、天候、雨パーティクルまで調整しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal">
-                    <h3>尻尾切断ギミック</h3>
-                    <p>
-                        尻尾を分離したモデルを使い、一定ダメージで尻尾が切断される要素を実装しました。
-                        本作の象徴的なシステムとして重点的に作り込みました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-1">
-                    <h3>1フレーム単位の調整</h3>
-                    <p>
-                        ヒットストップやエフェクトの発生タイミングなど、
-                        アクションの気持ちよさに直結する部分を細かく調整しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal delay-2">
-                    <h3>テストプレイによる改善</h3>
-                    <p>
-                        10数人にテストプレイしてもらい、スコアや感想を分析して
-                        難易度や演出、遊びやすさを改善しました。
-                    </p>
-                </article>
-
-                <article class="feature-card reveal">
-                    <h3>コントローラー対応</h3>
-                    <p>
-                        バグ修正中ではありますが、キーボードだけでなくパッド操作にも対応し、
-                        アクションゲームとして自然な操作感を目指しています。
-                    </p>
-                </article>
-            </div>
-        </section>
-
-        <section id="reflection" class="section">
-            <div class="section-heading reveal">
-                <p class="section-kicker">After Action Report</p>
-                <h2>制作振り返り・学べたこと</h2>
-            </div>
-
-            <div class="timeline">
-                <article class="timeline-item reveal">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>制作振り返り</h3>
-                        <p>
-                            短期間で完成に持っていくため、最初から工期と中間目標を定めて動いたことは有効でした。
-                            一方で、モデル制作やリグ入れでは想定外の問題も多く、計画通りに進まない場面もありました。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal delay-1">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>学べたこと</h3>
-                        <p>
-                            短工期の開発では、完璧な準備よりも「まず遊べる核を早く作ること」が重要だと学びました。
-                            また、問題が起きたときに作業を並列化して進行を止めないことの大切さも実感しました。
-                        </p>
-                    </div>
-                </article>
-
-                <article class="timeline-item reveal delay-2">
-                    <span class="timeline-dot"></span>
-
-                    <div class="timeline-card">
-                        <h3>次回に活かしたいこと</h3>
-                        <p>
-                            次回は、制作前に必要素材や想定トラブルも含めて、より具体的な企画・制作計画を立てることで、
-                            さらに安定した進行と高い完成度を目指したいです。
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="future" class="section">
-            <div class="section-heading reveal">
-                <p class="section-kicker">Future Quest</p>
-                <h2>今後の実装予定</h2>
-            </div>
-
-            <div class="future-grid">
-                <div class="future-card reveal">
-                    <h3>ローカルスコア機能</h3>
-                    <p>
-                        プレイ結果を蓄積し、繰り返し挑戦するモチベーションを高める要素として実装予定です。
-                    </p>
-                </div>
-
-                <div class="future-card reveal delay-1">
-                    <h3>パッド操作ガイド</h3>
-                    <p>
-                        初見プレイヤーにも分かりやすいように、コントローラー操作方法を画面上で確認できるようにする予定です。
-                    </p>
-                </div>
-
-                <div class="future-card reveal delay-2">
-                    <h3>さらなる改善とバグ修正</h3>
-                    <p>
-                        戦闘の手触りや操作感をさらに向上させるため、継続的に改善・調整を進める予定です。
-                    </p>
-                </div>
-            </div>
-        </section>
-
         <section id="movie" class="section">
             <div class="section-heading reveal">
                 <p class="section-kicker">Movie Record</p>
@@ -727,6 +281,18 @@
                         <p>ボス戦の流れ、難易度差、尻尾切断、UIが分かる動画を掲載予定</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="process-link-panel reveal">
+                <p class="section-kicker">Production Archive</p>
+                <h2>制作の裏側</h2>
+                <p>
+                    2週間弱の制作期間でどのように企画・実装・調整を進めたか、
+                    ドラゴン制作、AI使用範囲、テストプレイによる改善を別ページにまとめています。
+                </p>
+                <a href="process.html" class="btn btn-primary">制作プロセスを見る</a>
             </div>
         </section>
 
